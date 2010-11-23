@@ -5,7 +5,7 @@
 		}
 	
 		public function index () {
-			// code goes here...
+			echo Doctrine_Core::getPath();
 		}
 	}
 ?>
