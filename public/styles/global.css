@@ -1,0 +1,137 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+nav ul, nav li {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+}
+
+ul, ol {
+	margin-left: 1.8em;
+}
+
+body {
+	background: #E8EEF1;
+	color: #474747;
+	text-align: center;
+	font: 13px/1.231 sans-serif;
+}
+
+body #container {
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+header {
+	height: 59px;
+	padding-top: 40px;
+	position: relative;
+}
+
+header h1, header a {
+	width: 200px;
+	height: 40px;
+}
+
+header #navigation {
+	width: 780px;
+	position: absolute;
+	top: 56px;
+	left: 200px;
+}
+
+header #navigation ul {
+	display: block;
+	text-align: right;
+}
+
+header #navigation ul li {
+	display: inline-block;
+	margin-right: 1px;
+}
+
+header #navigation ul li a {
+	color: #605f5d;
+	text-decoration: none;
+	background: -moz-linear-gradient(100% 100% 90deg, #fcffff, #f0f2f1);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcffff), to(#f0f2f1));
+	padding: 10px 20px;
+	-moz-box-shadow: 1px 1px 1px #CCC;
+	-webkit-box-shadow: 1px 1px 1px #CCC;
+	box-shadow: 1px 1px 1px #CCC;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+header #navigation ul li a:hover {
+	background: -moz-linear-gradient(100% 100% 90deg, #fffa9f, #ffc788);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fffa9f), to(#ffc788));
+}
+
+header #util {
+	width: 780px;
+	position: absolute;
+	top: 16px;
+	left: 200px;
+	text-align: right;
+}
+
+header #util li {
+	display: inline-block;
+	margin-right: 6px;
+}
+
+header #util li a {
+	color: #6a6770;
+	text-decoration: none;
+}
+
+#main {
+	background: white;
+	min-height: 400px;
+	padding-bottom: 40px;
+}
+
+#container > footer {
+	background: transparent url("http://springpad-www.s3.amazonaws.com/images/shadow.down.png") center top no-repeat;
+	color: #4C4C4C;
+	clear: both;
+	overflow: hidden;
+	padding: 20px 0 80px 30px;
+}
+
+#container > footer p {
+	width: 48%;
+	float: left;
+	line-height: 31px;
+	white-space: nowrap;
+}
+
+#container > footer a {
+	color: #6a6770;
+	text-decoration: none;
+}
+
+#container > footer a:hover {
+	text-decoration: underline;
+}

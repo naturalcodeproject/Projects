@@ -1,7 +1,7 @@
 <?php
 	class Main_Controller extends ApplicationController_Controller {
 		public function __construct() {
-			// code goes here...
+			$this->_setLayout('index');
 		}
 	
 		public function index () {
