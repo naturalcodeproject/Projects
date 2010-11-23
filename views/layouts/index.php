@@ -12,13 +12,14 @@
 <body>
 	<div id="container">
 		<header role="banner">
-			<h1></h1>
+			<h1>Projects</h1>
 			<nav role="navigation" id="navigation">
 				<ul>
-					<li class="how_it_works"><a href="/how_it_works">How it Works</a></li>
-					<li class="get_springpad"><a href="/get_springpad">Get Springpad</a></li>
-					<li class="blog"><a href="http://blog.springpadit.com/">Blog</a></li>
-					<li class="support"><a href="/support">Support</a></li>
+					<li class="how_it_works"><a href="/how_it_works">Issues</a></li>
+					<li class="get_springpad"><a href="/get_springpad">Files</a></li>
+					<li class="blog"><a href="http://blog.springpadit.com/">Wiki</a></li>
+					<li class="support"><a href="/support">Snippets</a></li>
+					<li class="support"><a href="/support">Repository</a></li>
 				</ul>
 			</nav>
 			<nav role="util" id="util">
@@ -34,11 +35,8 @@
 		</div>
 		<footer>
 			<p class="copy">
-				© 2010 Spring Partners • 
-				<a href="/about">About Us</a> • 
-				<a href="/partners">Partners</a> • 
-				<a href="/privacy">Privacy Policy</a> • 
-				<a href="/terms">Terms of Service</a>
+				© 2010 NaturalCodeProject • 
+				<a href="/about">About Us</a>
 			</p>
 		</footer>
 	</div>
