@@ -1,5 +1,5 @@
 <?php
-class AddUserTable extends Doctrine_Migration_Base {
+class ChangeUserTable extends Doctrine_Migration_Base {
     public function up() {
 		$columns = array(
 			'id' => array(
