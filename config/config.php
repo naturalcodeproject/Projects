@@ -34,10 +34,10 @@
 	$manager->setAttribute(Doctrine_Core::ATTR_MODEL_LOADING, Doctrine_Core::MODEL_LOADING_CONSERVATIVE);
 	
 	$conn = Doctrine_Manager::connection('mysql://root:root@localhost/projects', 'Test Connection');
-	Autoloader::registerDirectory('models', Reg::get("Path.physical").'/models');
+	//Autoloader::registerDirectory('models', Reg::get("Path.physical").'/models');
 	
 	// Migrations
-	try {
+	try {	
 		$migration = new Doctrine_Migration(Reg::get("Path.physical").'/migrations', $conn);
 		$migration->migrate();
 	} catch(Exception $e) {
