@@ -1,0 +1,105 @@
+body {
+	font: 13.34px helvetica,arial,freesans,clean,sans-serif;
+	background: url("https://github.com/images/modules/header/background-v2.png") repeat-x scroll 0 0 #FFFFFF;
+}
+
+body * {
+	line-height: 1.4em;
+}
+
+a {
+	color: #4183C4;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+	color: #4183C4;
+	text-decoration: underline;
+}
+
+div#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+div#wrapper header {
+	position: relative;
+	height: 80px;
+}
+
+div#wrapper header h1 a {
+	font-size: 41px;
+	line-height: 80px;
+	height: 80px;
+	color: #000;
+}
+
+div#wrapper header h1 a:hover {
+	color: #4183C4;
+	text-decoration: none;
+}
+
+div#wrapper header div.avatarname {
+	display: inline;
+    font-weight: bold;
+    padding-right: 6px;
+}
+
+div#wrapper header div.avatarname img {
+	border: 1px solid #FFFFFF;
+    margin-right: 3px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+div#wrapper header div.avatarname a {
+	color: #000;
+}
+
+div#wrapper header nav#usernav {
+	position: absolute;
+	top: 0;
+	right: 0;
+    padding: 8px 5px 7px 10px;
+	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -moz-linear-gradient(270deg, #FCFCFC, #ECECEC) repeat scroll 0 0 transparent;
+    border-color: #E9E9E9 #E9E9E9 #F5F5F5;
+    border-radius: 0 0 5px 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+div#wrapper header nav#usernav ul {
+	display: inline;
+    font-weight: bold;
+    margin: 0;
+}
+
+div#wrapper header nav#usernav ul li {
+	background: url("https://github.com/images/modules/header/nav-rule.png") no-repeat scroll 0 50% transparent;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 8px 0 9px;
+}
+
+div#wrapper header nav#usernav ul li a {
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+div#wrapper div#container {
+	background: url("https://github.com/images/modules/pagehead/background-white.png") no-repeat scroll 0 0 transparent;
+    margin: -10px 0 10px -5px;
+    padding: 20px 25px 0;
+    position: relative;
+    width: 920px;
+    height: 107px;
+}
