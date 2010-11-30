@@ -43,7 +43,12 @@
     
     <div id="container">
     	<div id="head">
-    		Nav goes here...
+    		<nav role="breadcrumbs" id="breadcrumbs">
+			    <ul>
+			    	<li><a href="#1">NaturalCodeProject</a></li>
+			        <li>Test Project</li>
+			    </ul>
+			</nav>
     	</div>
     	<div id="main">
 			<?php echo $this->_getViewContent(); ?>

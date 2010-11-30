@@ -17,6 +17,7 @@
 			// 			$user->save();
 			
 			//echo $user->id;
+			echo "<h2>Clients</h2>";
 			
 			$q = Doctrine_Query::create()
 			    ->from('Clients_Model t');
