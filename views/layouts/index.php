@@ -34,7 +34,6 @@
 			</div>
 			<ul>
 				<li class="how_it_works"><a href="/how_it_works">Dashboard</a></li>
-				<li class="get_springpad"><a href="/get_springpad">Index</a></li>
 				<li class="blog"><a href="http://blog.springpadit.com/">Account Settings</a></li>
 				<li class="support"><a href="/support">Log Out</a></li>
 			</ul>

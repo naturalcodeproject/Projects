@@ -1,6 +1,6 @@
 body {
 	font: 13.34px helvetica,arial,freesans,clean,sans-serif;
-	background: url("https://github.com/images/modules/header/background-v2.png") repeat-x scroll 0 0 #FFFFFF;
+	background: url("../images/background-v2.png") repeat-x scroll 0 0 #FFFFFF;
 }
 
 body * {
@@ -84,7 +84,7 @@ div#wrapper header nav#usernav ul {
 }
 
 div#wrapper header nav#usernav ul li {
-	background: url("https://github.com/images/modules/header/nav-rule.png") no-repeat scroll 0 50% transparent;
+	background: url("../images/nav-rule.png") no-repeat scroll 0 50% transparent;
     display: inline;
     list-style-type: none;
     margin: 0;
@@ -96,7 +96,7 @@ div#wrapper header nav#usernav ul li a {
 }
 
 div#wrapper div#container {
-	background: url("https://github.com/images/modules/pagehead/background-white.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/background-white.png") no-repeat scroll 0 0 transparent;
     margin: -10px 0 10px -5px;
     padding: 20px 25px 0;
     position: relative;
@@ -128,7 +128,7 @@ div#wrapper div#container div#head nav#breadcrumbs ul li {
 }		
 
 div#wrapper div#container div#head nav#breadcrumbs ul li a {
-	background:url(http://www.duoh.com/csstutorials/breadcrumb/images/crumbs.gif) no-repeat right center;
+	background:url("../images/crumbs.gif") no-repeat right center;
 	display:block;
 	padding:0 15px 0 0;
 }
@@ -140,4 +140,5 @@ div#wrapper div#container div#main {
 div#wrapper div#container div#main h2 {
 	font-size: 24px;
 	margin: 0 0 10px;
+	color: #000;
 }
