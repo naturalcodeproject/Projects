@@ -35,3 +35,6 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
+
+# Espresso Project Files
+*.esproj

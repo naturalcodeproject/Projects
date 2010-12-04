@@ -142,3 +142,111 @@ div#wrapper div#container div#main h2 {
 	margin: 0 0 10px;
 	color: #000;
 }
+
+/* Lists */
+div.list {
+	overflow: hidden;
+	border-top: 1px dotted #DEDEDE;
+}
+
+div.list div.list-item {
+	height: 53px;
+	padding: 7px;
+	border-bottom: 1px dotted #DEDEDE;
+	overflow: hidden;
+}
+
+div.list div.list-item div.status {
+	float: left;
+}
+
+div.list div.list-item div.status div.status-box {
+	height: 25px;
+	width: 120px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	padding:  10px 5px;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-right: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1em;
+}
+
+div.list div.list-item div.status div.status-box span {
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	color: #bebebe;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 10px;
+	text-align: center;
+	width: 120px;
+}
+
+div.list div.list-item div.status div.status-box.x-small {
+	width: 30px;
+}
+
+div.list div.list-item div.status div.status-box.x-small span {
+	width: 30px;
+}
+
+div.list div.list-item div.status div.status-box.small {
+	width: 60px;
+}
+
+div.list div.list-item div.status div.status-box.small span {
+	width: 60px;
+}
+
+div.list div.list-item div.status div.status-box.large {
+	width: 180px;
+}
+
+div.list div.list-item div.status div.status-box.large span {
+	width: 180px;
+}
+
+div.list div.list-item div.status div.status-box.x-large {
+	width: 240px;
+}
+
+div.list div.list-item div.status div.status-box.x-large span {
+	width: 240px;
+}
+
+div.list div.list-item div.summary {
+	float: left;
+	margin-left: 20px;
+	padding:  5px 0;
+}
+
+div.list div.list-item div.summary h3 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+div.list div.list-item div.summary div.alt-info {
+	color: #666;
+	font-size: 12px;
+	line-height: 13px;
+}
+
+div.list div.list-item div.summary div.alt-info span.label {
+	display: inline-block;
+	color: #bebebe;
+	padding: 0 5px 0 0;
+	font-weight: bold;
+}
+
+div.list div.list-item div.summary div.alt-info span.value {
+	display: inline-block;
+	padding: 0 10px 0 0;
+}
